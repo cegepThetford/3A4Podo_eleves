@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Podo_UI", "Podo_UI\Podo_UI.csproj", "{72A6CA11-53BA-4A2F-8E1A-9AE5CB548D16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Podo_Affaires", "Podo_Affaires\Podo_Affaires.csproj", "{7D0E5404-7DC3-43DD-91EB-636D735EE30C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72A6CA11-53BA-4A2F-8E1A-9AE5CB548D16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A6CA11-53BA-4A2F-8E1A-9AE5CB548D16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A6CA11-53BA-4A2F-8E1A-9AE5CB548D16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A6CA11-53BA-4A2F-8E1A-9AE5CB548D16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D0E5404-7DC3-43DD-91EB-636D735EE30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0E5404-7DC3-43DD-91EB-636D735EE30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0E5404-7DC3-43DD-91EB-636D735EE30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0E5404-7DC3-43DD-91EB-636D735EE30C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2827462F-22BF-454E-9BF2-ABADFE8E2E10}
+	EndGlobalSection
+EndGlobal

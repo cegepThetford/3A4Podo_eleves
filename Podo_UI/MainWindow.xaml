@@ -1,0 +1,34 @@
+﻿<Window x:Class="Podo_UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Podo_UI"
+        mc:Ignorable="d"
+        Title="Cas Podo" SizeToContent="WidthAndHeight" Width="525" FontSize="32">
+    <Window.Resources>
+        <Style  TargetType="{x:Type Button}">
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="Padding" Value="20"/>
+        </Style>
+    </Window.Resources>
+    <StackPanel>
+        <TextBlock Text="Podomètre" FontSize="48" HorizontalAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0 30 0 30">Valeur:
+            <TextBlock Name="tbValeur" FontWeight="Bold">0</TextBlock>
+        </TextBlock>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button Name="btnIncrementer" Grid.Row="0" Grid.Column="0" Click="BtnIncrementer_Click">Incrémenter</Button>
+            <Button Name="btnDecrementer" Grid.Row="0" Grid.Column="1" Click="BtnDecrementer_Click">Décrémenter</Button>
+            <Button Name="btnRaz" Grid.Row="1" Grid.ColumnSpan="2" Click="BtnRaz_Click">Remettre à zéro</Button>
+        </Grid>
+    </StackPanel>
+</Window>
